@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+* {
+	font-family: "Franklin Gothic";	
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color:#1F01B9;
+	font-size: 75px;
+}
+h3 {
+	font-family: 'Noto Sans KR', sans-serif;
+	color: green;
+}
+b {
+	color:#00FFFF;
+}
+img {
+	border-radius:50%; 
+	width: 150px;
+	height:150px;
+}
+#logo{
+	width: 75px;
+	height:75px;
+}
+header *{
+	display: inline;
+	vertical-align: top;
+}
+body {
+	background-color: black;
+}
+p {
+	font-family: 'Abel', sans-serif;
+	color:#F1D302;
+}
+nav p a {
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	border:	#000000 0.5px dotted;
+	margin:5px;
+}
+nav p a:hover {
+	border:#F0FFFF 0.5px dotted;
+}
+nav {
+	position: fixed; 
+	background-color:#000000 ;
+	top: 0;
+	width: 100%;
+}
+header {
+	margin-top: 50px;
+}
+#featured-images {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 40px; 
+}
+
+.row1{
+	text-align: center;
+}
+
+.row2 {
+	display: flex;
+	justify-content: space-around;
+}
+table {
+	color: white;
+}
+
+q {
+	font-family: 'Abel', sans-serif;
+	color:#F1D302;
+}
+th {
+    color:#F1D302;
+}
+td {
+ 	color:#F1D302;
+}
+footer {
+	text-align: center;
+} 
+.school {
+	display: flex;
+	justify-content: space-around;
+} 
+.sticker {
+
+}
+.form {
+
+	background-color: #3A469C;
+	border:#0E98D7 5px solid;
+	padding:30px;
+	width: 60%;
+	display: inline-block;	 
+}
+.form-title{
+	margin-bottom: 50px;
+}
+.form-title p{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.form-title h2{
+	color:white;
+	font-size: 50px;
+	text-align: center;
+}
+input[type=text], input[type="email"] {
+	color:#0E98D7;
+	background-color: #3A469C;
+	width: 100%;
+	border:none;
+	border-bottom:2px #0E98D7 solid; 
+	margin-top: 25px;
+	padding:10px;
+	margin-bottom: 25px;
+}
+label {
+	color:white;
+}
+input [type=checkbox]{
+	background-color: #3A469C;
+}
+input::placeholder { 
+	color:#0E98D7; 
+}
+.form-body {
+	display: inline-block;
+}
+.btns {
+	text-align:center;
+	margin-top: 20px;
+
+
+}
+.btns input{
+	background-color:#3A469C;
+	border:white 1px solid; 
+	padding:10px;
+	color:white;
+	margin-right: 20px
+}
+
+input [type=submit] {
+	background-image: url('right-arrow.png');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	padding-right: 10px
+
+}
+input[type=text], input[type=email]:focus {
+     outline:none;
+}
