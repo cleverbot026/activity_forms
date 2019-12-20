@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Share+Tech+Mono|Tomorrow:300&display=swap'); 
+
+
+
+* {
+	font-family:'Press Start 2p',cursive; 
+	color: white;
+}*/
+
+h1{
+	
+	font-family:'Share Tech Mono',monospace;
+	color: white; 
+}
+
+header * {
+
+	display: inline; 
+	margin-top: 100px;
+}
+
+
+ 
+
+#hi {
+
+	height:150;
+	width:150;
+} 
+
+#ho{
+
+	height: 50px;
+	width: 50px;
+}
+.imageClass {
+	
+	height: 331px;
+	width: 221px;
+	border-radius:15%;
+} 
+
+nav p a {
+	text-decoration:none; 
+	padding: 15px; 
+ 	border: #ffffff 0.5px solid;
+}
+
+nav p a:hover {
+
+	border:#1F271B 0.5px solid;
+}
+
+nav{
+	background-color: #456990;
+	position:fixed;
+	top: 0;
+	width:100%;
+} 
+
+#featuredimages{
+text-align: center;
+display: flex;
+
+grid-template-columns:30%; 
+
+
+
+}  
+
+.row2{
+
+	padding: 15px;
+} 
+
+
+.er{
+
+	font-family:'Tomorrow', sans-serif;
+} 
+
+
+
+.form-title h5{
+
+	color:white;
+	font-size: 25px;
+	text-align: center; }
+
+	.form-title{
+	color: white;
+	font-size: 15px;
+	text-align: center; } 
+
+	.form-body{
+
+	display: inline-block;
+}
+label{
+
+	color: white;
+}
+
+input::placeholder{
+
+color: white;
+
+}
+
+input[type=text], input[type=email], input[type=Message]{
+
+color: white;
+background-color: #0000;
+width: 100%; 
+border: none;
+border-bottom: 2px #0E98D7 solid;
+margin-top: 30px;
+padding:5px;
+
+} 
+
+.btns{
+	text-align: center;
+	margin-top: 25px;
+
+}
+.btns input{
+background-color: #3A469C;
+border:white 1px solid; 
+padding: 10px;
+color: white;
+margin-right: 20px;
+
+}
+
+
+
+
+
