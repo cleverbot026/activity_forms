@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+*{
+	font-family:"Alatsi";
+	color: gray;
+
+}
+
+.grid {
+flex: grid;
+	background-color:#614F51;
+}
+
+
+.grid1{
+	flex: grid;
+	background-color:#614F51;
+}
+
+.grid2{
+
+	flex: grid;
+	background-color: #A79D9E;
+
+}
+header *{
+
+	display: inline;
+	margin-top: 100px;
+
+}
+
+.image{
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+nav p a{
+
+	text-decoration: none;
+	padding: 1%;
+	border:#6A041D 0.5px solid;
+	font-family:"Alatsi";
+	color: white;
+}
+nav p a:hover{
+
+	border:white 0.5px solid;
+
+}
+nav{
+	background-color: #456990;
+	position:fixed;
+	top: 0 ;
+	width:100%;
+	padding: 0px 0px 4px 0px;
+}
+
+
+section div{
+	font-size:20px; 
+	display:flex;
+	justify-content: space-around; 
+
+}
+
+*{
+
+	font-family: 'Century Gothic';
+}
+
+.form{
+
+	background-color: gray;
+	border:#f3f3f3 5px solid;
+	padding: 60px; 
+	width: 60% 
+ display:inline-block;
+
+}
+
+.form-title h2{
+
+	color:#f3f3f3;
+	font-size: 50px;
+	text-align: center;
+} 
+
+.form-title p{
+	color: #f3f3f3;
+	font-size: 15px;
+	text-align: center; 
+
+}
+
+.form-body{
+
+	display: inline-block;
+}
+
+label{
+
+	color: white;
+}
+
+input::placeholder{
+
+color: #0E98D7;
+
+}
+
+input[type=text], input[type=email]{
+
+color: #0E98D7;
+background-color: gray;
+width: 100%; 
+border: none;
+border-bottom: 2px #f3f3f3 solid;
+margin-top: 30px;
+padding:5px;
+
+} 
+
+.btns{
+	text-align: center;
+	margin-top: 25px;
+
+}
+.btns input{
+background-color: gray;
+border:white 1px solid; 
+padding: 10px;
+color: white;
+margin-right: 20px;
+}
+
+input[type=text]:focus, input[type=Email]:focus,{
+
+	outline: none;
+}
+textarea{
+
+	si
+}
