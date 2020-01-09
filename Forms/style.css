@@ -1,0 +1,75 @@
+*{
+
+	font-family: 'Century Gothic';
+}
+
+.form{
+
+	background-color: #3A469C;
+	border:#0E98D7 5px solid;
+	padding: 60px; 
+	width: 60% 
+ display:inline-block;
+
+}
+
+.form-title h2{
+
+	color:white;
+	font-size: 50px;
+	text-align: center;
+} 
+
+.form-title{
+	color: white;
+	font-size: 15px;
+	text-align: center; 
+
+}
+
+.form-body{
+
+	display: inline-block;
+}
+
+label{
+
+	color: white;
+}
+
+input::placeholder{
+
+color: #0E98D7;
+
+}
+
+input[type=text], input[type=email], input[type=Message]{
+
+color: #0E98D7;
+background-color: #3A469C;
+width: 100%; 
+border: none;
+border-bottom: 2px #0E98D7 solid;
+margin-top: 30px;
+padding:5px;
+
+} 
+
+.btns{
+	text-align: center;
+	margin-top: 25px;
+
+}
+.btns input{
+background-color: #3A469C;
+border:white 1px solid; 
+padding: 10px;
+color: white;
+margin-right: 20px;
+
+}
+
+input[type=text]:focus, input[type=Email]:focus,input[type=Message]:focus{
+
+	outline: none;
+}
