@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+*{
+	font-family:"Alatsi";
+	color: gray;
+}
+header *{
+
+	display: inline;
+	margin-top: 100px;
+}
+
+.image{
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+nav p a{
+
+	text-decoration: none;
+	padding: 1%;
+	border:#6A041D 0.5px solid;
+	font-family:"Alatsi";
+	color: white;
+}
+nav p a:hover{
+
+	border:#1F271B 0.5px solid;
+
+}
+nav{
+	background-color: #456990;
+	position:fixed;
+	top: 0 ;
+	width:100%;
+}
+
+
+section div{
+	font-size:20px; 
+	display:flex;
+	justify-content: space-around; 
+
+}
+
+*{
+
+	font-family: 'Century Gothic';
+}
+
+.form{
+
+	background-color: gray;
+	border:#f3f3f3 5px solid;
+	padding: 60px; 
+	width: 60% 
+ display:inline-block;
+
+}
+
+.form-title h2{
+
+	color:white;
+	font-size: 50px;
+	text-align: center;
+} 
+
+.form-title{
+	color: white;
+	font-size: 15px;
+	text-align: center; 
+
+}
+
+.form-body{
+
+	display: inline-block;
+}
+
+label{
+
+	color: white;
+}
+
+input::placeholder{
+
+color: #0E98D7;
+
+}
+
+input[type=text], input[type=email], input[type=Message]{
+
+color: #0E98D7;
+background-color: gray;
+width: 100%; 
+border: none;
+border-bottom: 2px #f3f3f3 solid;
+margin-top: 30px;
+padding:5px;
+
+} 
+
+.btns{
+	text-align: center;
+	margin-top: 25px;
+
+}
+.btns input{
+background-color: gray;
+border:white 1px solid; 
+padding: 10px;
+color: white;
+margin-right: 20px;
+}
+
+input[type=text]:focus, input[type=Email]:focus,input[type=Message]:focus{
+
+	outline: none;
+}
