@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans&display=swap');
+
+*{
+
+	font-family: "Indie Flower";
+
+
+
+}
+body{
+
+	background:#B9D9EE;
+}
+
+.grid{
+
+	flex: grid;
+	background-color: #547181;
+}
+.grid1{
+
+	flex: grid;
+	background-color: #547181;
+
+}
+
+.grid2{
+
+	flex: grid;
+	background-color: #88A1AE;
+
+}
+
+
+.classimage{
+	width:500px; 
+	height:500px;
+	border-radius:50%; 
+
+}
+
+ h1{
+ 	color:black;
+ 	font-size: 70px;
+
+ }
+ nav p a{
+
+    text-decoration: none;
+    padding: 1%;
+    border: #090908 0.5px solid;
+    font-family: "Indie Flower";
+    color: Black;
+
+ }
+ nav p a:hover{
+ 
+
+ 	border:#459AD4 0.5px solid;
+ }
+ nav {
+ 	
+ 	background-color:#FFFFFF;
+ 	position:fixed;
+ 	top:0;
+ 	width:100%;
+ 	padding-bottom: 4px;
+
+
+ }
+ section div{
+ 	font-size:20px;
+ 	display: flex;
+ 	justify-content: space-around; 
+ }
+
+
+ 
+
+.form{
+
+	background-color: #77DAFE;
+	border:#0E98D7 5px solid;
+	padding: 60px; 
+	width: 60% 
+ display:inline-block;
+ font-family: 'Century Gothic';
+
+}
+
+.form-title h2{
+
+	color:black;
+	font-size: 60px;
+	text-align: center;
+} 
+
+.form-title{
+	color: black;
+	font-size: 20px;
+	text-align: center; 
+
+}
+
+.form-body{
+
+	display: inline-block;
+}
+
+label{
+
+	color: black;
+}
+
+input::placeholder{
+
+color: #0E98D7;
+
+}
+
+input[type=text], input[type=email], input[type=Message]{
+
+color: #0E98D7;
+background-color: #95E2FE;
+width: 100%; 
+border: none;
+border-bottom: 2px #0E98D7 solid;
+margin-top: 40px;
+padding:15px;
+
+} 
+
+.btns{
+	text-align: center;
+	margin-top: 25px;
+
+}
+.btns input{
+background-color: #A4E6FE;
+border:white 2px solid; 
+padding: 10px;
+color: white;
+margin-right: 20px;
+
+}
+
+
+input[type=text]:focus, input[type=Email]:focus,input[type=Message]:focus{
+
+	outline: none;
+}
+
